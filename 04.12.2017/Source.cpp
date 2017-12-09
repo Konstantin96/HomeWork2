@@ -2,6 +2,7 @@
 #include <math.h>
 #include <stdio.h>
 #include <locale.h>
+#include <time.h>
 using namespace std;
 
 void main()
@@ -57,23 +58,8 @@ start:
 	else if (nz == 4)
 	{
          //Напишите функцию f(int& m1, int& m0, int N), которая возвращает первую и последнюю цифры двузначного натурального числа N 
-		{
-			int f03(int& x1, int& x0, int x);
-			int n,x,x0,x1;
-			cout << "x "; cin >> x; cout << "n "; cin >> n; cout << "x0 "; cin >> x0; cout << "x1 "; cin >> x1;
-			if (x < 0) return;
-			if (x > 99) return;
-			x0 = x % 10;
-			x1 = (x - x0) / 10;
-			return ;
-		}
-		{
-			cout << "Расщепляем двузначное число на цифры." <<	endl;
-			int x = 10 + rand() % 90;
-			int x1, x0;
-			int m = (x1, x0, x);
-			cout << " x=" << x << ", x1=" << x1 <<	", x0=" << x0 << ", f03(x2,x1,x)=" << m	<< "." << endl << endl;
-		}
+		
+		
 	}
 
 	else if (nz == 5)
@@ -90,7 +76,15 @@ start:
 	else if (nz == 6)
 	{
       //  Напишите функцию f(int m, int n), которая определяет для пары целых чисел m и n, кратно ли второе число первому
-
+		using namespace std;
+			
+			
+		
+			int a, b;
+			cin >> a;
+			cin >> b;
+			
+		
 	}
 
 	else if (nz >= 0)
